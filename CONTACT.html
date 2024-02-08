@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Personal Website</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="HOME.html" class="active">Home</a>
+            <a href="ABOUT.html">About Me</a>
+            <a href="PROJECT.html">Project</a>
+            <a href="SKILLS.html">Skills</a>
+            <a href="CONTACT.html">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- CONTACT section design -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" class="item" id="name" autocomplete="off">
+                <input type="email" placeholder="Email Address" class="item" id="email" autocomplete="off">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" class="item" id="number" autocomplete="off">
+                <input type="text" placeholder="Email Subject" class="item" id="subject" autocomplete="off">
+            </div>
+            <div class="input-box">
+            <textarea name="" class="item" id="area" cols="30" rows="10" placeholder="Your Message" autocomplete="off"></textarea>
+        </div>
+            <button class="btn" id="send" onclick="message()">Send Message</button>
+
+            <div class="social-media">
+                <a href="https://twitter.com/login"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/"><i class='bx bxl-github'></i></i></a>
+                <a href="https://www.linkedin.com/in/rifky-ahamed-061b212b1/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            
+           
+            
+
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <!-- <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by MasterMind | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="HOME.html"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
